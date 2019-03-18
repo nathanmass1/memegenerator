@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(176, 204, 255) */
+  }
+
+
+  .container-fluid {
+    /* padding-top: 70px;
+    padding-bottom: 70px; */
+    font: 26px Montserrat, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+  }
+
+  .container-fluid h1 {
+    font: 40px Montserrat, sans-serif;
+    color: rgba(235, 49, 49, 0.575);
+    font-weight: bold;
+    
+}
+
+.container-fluid h3 {
+    font: 38px Montserrat, sans-serif;
+    color: black;
+    font-weight: bold;
+    
+}
+/*  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+
+  }
+  */
+
+
+.top {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    max-height: 20%;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    max-height: 20%;
+}
+
+
+  .InputForm {
+      margin-left: 20px;
+      text-align: left;
+      vertical-align: bottom;
+      text-decoration-color: black;
+      
+  }
+
+  label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: left; 
+}
+
+  #topText, #imageURL, #bottomText {
+      width: 65%;
+      align-content: center;
+      font-weight: lighter;
+  }
+
+
+.styleme {
+        background-color: #fffab5;
+}
+
+
+  .memeList {
+      background-color: #d4f0fd;
+      padding: 1%;
+  }
+  
+
+  .collection {
+        list-style: none;
+        width: 100%;
+    }
+
+    img {
+        width: 500px;
+      }  
+  
+  .memeImg{
+      display: inline-block;
+      margin: 1%;
+      width: 500px;
+      height: auto;
+      text-align: center;
+      position: relative;
+  }
+  
+ 
+  .memeImg:hover {opacity: 0.4;}
+  
+  .redX {
+      width: 500px;
+      height: 220px;
+      position: absolute;
+      top: 50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      font-weight: 1000;
+      text-align: center;
+      font-size: 1000%;
+      opacity: 0;
+  }
+  
+  .redX:hover {
+      opacity: 1.6;
+      z-index: 3;
+  }
+  
+  .text {
+      text-transform: uppercase;  
+      font-family: Impact, Arial, sans-serif;
+      width: 500px;
+      font-size: 300%;
+      line-height: 1.5em;
+      letter-spacing: 1px;
+     -webkit-text-fill-color: white; 
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color: black;
+     overflow-wrap: break-word;
+    word-wrap: break-word;
+    opacity: 3;
+  }
+  
+
+ 
+  
+ 
+  
+ 
+  
+  
